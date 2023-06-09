@@ -1,7 +1,7 @@
-
-
-export default function Eventssss() {
+export default function Events() {
   return (
-    <div>Testing diffrent events</div>
-  )
+    <div>
+      <button onClick={() => router.push("/")}>Back to home</button>
+    </div>
+  );
 }
