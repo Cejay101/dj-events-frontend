@@ -1,7 +1,8 @@
+import Layout from "@/components/Layout";
 export default function Events() {
   return (
-    <div>
-      <button onClick={() => router.push("/")}>Back to home</button>
-    </div>
+    <Layout>
+      <h1>My Events</h1>
+    </Layout>
   );
 }
