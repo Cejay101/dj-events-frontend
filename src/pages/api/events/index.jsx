@@ -8,5 +8,4 @@ export default function handler(req, res) {
     res.setHeader("Allow",["GET"])
     res.status(405).json({message:`Method ${req.method} not found`})
   }
-  console.log(req)
 }
